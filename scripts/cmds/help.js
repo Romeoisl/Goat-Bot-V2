@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🐐 | Goat Bot V2 ]";
+const doNotDelete = "[ Gerald Bot vip ]";
 /**
 * @author NTKhang
 * @author: do not delete it
@@ -104,18 +104,18 @@ module.exports = {
 				+ "\n%1"
 				+ "\n├─────⭔"
 				+ "\n│ Page [ %2/%3 ]"
-				+ "\n│ Currently, the bot has %4 commands that can be used"
-				+ "\n│ » Type %5help <page> to view the command list"
+				+ "\n│ Currently, Gerald bot has %4 commands that can be used"
+				+ "\n│ » Type %5help <page> to view max command list"
 				+ "\n│ » Type %5help to view the details of how to use that command"
 				+ "\n├────────⭔"
 				+ "\n│ %6"
 				+ "\n╰─────────────⭓",
 			help2: "%1├───────⭔"
-				+ "\n│ » Currently, the bot has %2 commands that can be used"
+				+ "\n│ » Currently, Gerald bot has %2 commands that can be used"
 				+ "\n│ » Type %3help <command name> to view the details of how to use that command"
 				+ "\n│ %4"
 				+ "\n╰─────────────⭓",
-			commandNotFound: "Command \"%1\" does not exist",
+			commandNotFound: "Command \"%1\" does not exist in Gerald's system",
 			getInfoCommand: "╭── NAME ────⭓"
 				+ "\n│ %1"
 				+ "\n├── INFO"
